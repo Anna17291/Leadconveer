@@ -194,11 +194,12 @@ ManageText()
 
 //меню
 const handleMenu = () => {
-  let buttonOpen = document.querySelector('.main-header__button');
-  let buttonClose = document.querySelector('.main-header__button-close');
-  let menu = document.querySelector('.main-header__nav');
-  let menuContent = document.querySelector('.main-header__list');
+  const buttonOpen = document.querySelector('.main-header__button');
+  const buttonClose = document.querySelector('.main-header__button-close');
+  const menu = document.querySelector('.main-header__nav');
+  const menuContent = document.querySelector('.main-header__list');
   const breakpoint = window.matchMedia('(max-width: 767px)');
+  const page = document.querySelector('body');
 
   const openMenu = () => {
     menu.classList.add('main-header__nav--opened');
@@ -211,6 +212,7 @@ const handleMenu = () => {
     buttonClose.addEventListener('click', closeMenu);
     menu.addEventListener('click', closeOnoverflow);
     window.addEventListener('resize', changeSize);
+    page.style.overflow = 'hidden';
   }
 
   const closeMenu = () => {
@@ -222,6 +224,7 @@ const handleMenu = () => {
     buttonClose.classList.add('main-header__button-close--closed');
     buttonOpen.addEventListener('click', openMenu);
     menu.removeEventListener('click', closeOnoverflow);
+    page.style.overflow = 'auto';
   }
 
   const changeSize = () => {
