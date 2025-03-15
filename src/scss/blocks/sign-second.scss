@@ -1,0 +1,168 @@
+.sign-second {
+  padding: 60px 70px;
+  box-sizing: border-box;
+
+  @include vp-1019 {
+    padding: 30px 20px;
+  }
+
+  .sign-second__container {
+    background-color: #2d2d2d;
+    border-radius: 40px;
+    display: flex;
+    box-sizing: border-box;
+    padding: 65px 150px 60px;
+    min-height: 523px;
+    max-width: 1780px;
+    margin: 0 auto;
+
+    @include vp-1535 {
+      padding: 65px 120px 60px;
+    }
+
+    @include vp-1339 {
+      flex-direction: column;
+    }
+
+    @include vp-1019 {
+      padding: 50px;
+    }
+
+    @include vp-767 {
+      padding: 20px;
+    }
+  }
+}
+
+.sign-second__header {
+  color: #ffffff;
+  text-align: left;
+  padding: 0;
+
+  @include vp-1535 {
+    font-size: 30px;
+  }
+
+  @include vp-767 {
+    font-size: 22px;
+  }
+}
+
+.sign-second__text {
+  padding-top: 40px;
+  width: 52.5%;
+
+  @include vp-1535 {
+    width: 40%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  @include vp-1339 {
+    width: 100%;
+  }
+}
+
+.sign-second__button {
+  cursor: pointer;
+  border: 0;
+  background-color: #ff6600;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Kollektif", "Arial", sans-serif;
+  width: 100%;
+  min-height: 72px;
+  padding: 5px 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  user-select: none;
+  margin-top: auto;
+
+  @include vp-767 {
+    font-size: 14px;
+  }
+
+  &:hover,
+  &:focus-visible {
+    background-color: #ff9832;
+  }
+
+  &:active {
+    background-color: #cd3400;
+  }
+
+  &--unabled {
+    background-color: #c0c0c0;
+  }
+}
+
+.sign-second__image-container {
+  position: relative;
+  width: 47.5%;
+  margin-right: 43px;
+
+  @include vp-1535 {
+    width: 60%;
+  }
+
+  @include vp-1339 {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  @include vp-767 {
+    margin-right: 0;
+  }
+
+  &::before {
+    content: "";
+    background-image: url("../img/svg/star.svg");
+    width: 68px;
+    height: 70px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transform: rotate(3deg);
+
+    @include vp-767 {
+      width: 18px;
+      height: 18px;
+    }
+  }
+
+  &::after {
+    content: "";
+    background-image: url("../img/svg/star.svg");
+    width: 66px;
+    height: 68px;
+    position: absolute;
+    right: 48px;
+    bottom: 35px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transform: rotate(-13deg);
+
+    @include vp-767 {
+      width: 18px;
+      height: 18px;
+      right: 0;
+      bottom: 0;
+    }
+  }
+}
+
+.sign-second__image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  user-select: none;
+}

@@ -1,0 +1,27 @@
+.header2 {
+  color: #2d2d2d;
+  font-size: 48px;
+  line-height: 52px;
+  font-weight: 700;
+  font-family: "Montserrat", "Arial", sans-serif;
+  text-align: center;
+  margin-top: 0;
+  padding: 0 150px;
+
+  @include vp-1339 {
+    font-size: 36px;
+    padding: 0 40px;
+  }
+
+  @include vp-767 {
+    font-size: 26px;
+    line-height: 36px;
+    padding: 0 20px;
+  }
+}
+
+.random-break {
+  @include vp-1019 {
+    display: none;
+  }
+}

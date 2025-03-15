@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Leadconveer</title>
+  <link rel="preload" href="fonts/Inter-Regular.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Inter-Medium.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Montserrat-Bold.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Inter-Bold.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Kollektif.woff2" as="font" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="scss/styles.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="main-header">
+      <div class="main-header__container">
+        <section class="main-header__logo-section">
+          <a class="main-header__logo-link" href="#">
+            <img class="main-header__logo" src="img/svg/logo.svg" width="251" height="70" alt="Логотип.">
+          </a>
+        </section>
+        <section class="main-header__menu-section">
+          <nav class="main-header__nav main-header__nav--closed">
+            <ul class="main-header__list main-header__list">
+              <li class="main-header__item">
+                <a class="main-header__link" href="#">
+                  Как это работает
+                </a>
+              </li>
+              <li class="main-header__item">
+                <a class="main-header__link" href="#">
+                  Цена
+                </a>
+              </li>
+              <li class="main-header__item">
+                <a class="main-header__link" href="#">
+                  Отзывы
+                </a>
+              </li>
+              <li class="main-header__item">
+                <a class="main-header__link" href="#">
+                  Контакты
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <button class="main-header__button main-header__button--opened"></button>
+          <button class="main-header__button-close main-header__button-close--closed"></button>
+        </section>
+        <section class="main-header__contacts-section">
+          <div class="main-header__social-conrainer">
+            <a class="main-header__social-link" href="#">
+              <img class="main-header__social main-header__social--whatsapp" src="img/svg/wa.svg" alt="Наш Whatsapp."
+                width="40" height="40">
+            </a>
+            <a class="main-header__social-link" href="#">
+              <img class="main-header__social main-header__social--tme" src="img/svg/tme.svg" alt="Наш Telegram."
+                width="40" height="40">
+            </a>
+          </div>
+          <a class="main-header__phone" href="tel:+74951183282">+7 495 118-32-82</a>
+        </section>
+      </div>
+    </header>
+    <main class="page-main">
+      <div class="page-main__container">
+        <section class="page-main__hero hero">
+          <div class="hero__container container">
+            <div class="hero__text">
+              <h1 class="hero__header"><span class="header-colored">Лидогенерация</span><br> для
+                бизнеса
+              </h1>
+              <div class="hero__description-container">
+                <p class="hero__description">
+                  Покупайте только целевые лиды по фиксированной цене от 300 ₽
+                </p>
+                <img class="hero__emoji" src="img/svg/money-mouth-face.svg" width="72" height="72" alt="Смайлик">
+              </div>
+              <a class="hero__link" href="#">
+                Выбрать пакет лидов
+              </a>
+            </div>
+            <div class="hero__image-container">
+              <picture>
+                <img class="hero__image" src="img/png/hero.png" srcset="img/png/hero-2x.png" width="791" height="497"
+                  alt="Фото девушки с ноутбуком.">
+              </picture>
+            </div>
+          </div>
+        </section>
+        <section class="page-main__nav main-nav">
+          <div class="main-nav__container container">
+            <nav class="main-nav__nav">
+              <ul class="main-nav__list">
+                <li class="main-nav__item">
+                  <a class="main-nav__link">
+                    Лидогенерация в&nbsp;b2b
+                  </a>
+                </li>
+                <li class="main-nav__item">
+                  <a class="main-nav__link" href="#">
+                    Биржа лидов</a>
+                </li>
+                <li class="main-nav__item">
+                  <a class="main-nav__link" href="#">
+                    Сервис по Лидгену</a>
+                </li>
+                <li class="main-nav__item">
+                  <a class="main-nav__link" href="#">
+                    Лиды для&nbsp;производства</a>
+                </li>
+                <li class="main-nav__item">
+                  <a class="main-nav__link" href="#">
+                    Клиенты <span class="random-break"><br></span>
+                    для&nbsp;бизнеса</a>
+                </li>
+                <li class="main-nav__item">
+                  <a class="main-nav__link" href="#">
+                    Определить телефон посетителя сайта</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </section>
+        <section class="page-main__terms terms">
+          <div class="terms__container container">
+            <h2 class="terms__header header2">Завалим ваш&nbsp;отдел продаж<br><span class="header-colored
+                ">целевыми Лидами</span></h2>
+            <ul class="terms__list">
+              <li class="terms__item">
+                <div class="terms__text">
+                  <div class="terms__item-header-container">
+                    <h3 class="terms__item-header">Оплата за&nbsp;результат</h3>
+                  </div>
+                  <p class="terms__item-description">Вы&nbsp;платите только за&nbsp;переданные
+                    и&nbsp;получение вами целевые Лиды
+                    —&nbsp;их&nbsp;контактные данные (телефон,
+                    Telegram, email)</p>
+                </div>
+                <img class="terms__item-image" src="img/png/terms1.png" srcset="img/png/terms1-2x.png"
+                  alt="Изображение телфона.">
+              </li>
+              <li class="terms__item">
+                <div class="terms__text">
+                  <div class="terms__item-header-container">
+                    <h3 class="terms__item-header">Качественные лиды</h3>
+                  </div>
+                  <p class="terms__item-description">Все&nbsp;передаваемые вам&nbsp;Лиды&nbsp;— это&nbsp;потенциальные
+                    клиенты,
+                    которые
+                    искали ваш&nbsp;товар или&nbsp;услугу</p>
+                </div>
+                <img class="terms__item-image" src="img/png/terms2.png" srcset="img/png/terms2-2x.png"
+                  alt="Изображение клиента.">
+              </li>
+              <li class="terms__item">
+                <div class="terms__text">
+                  <div class="terms__item-header-container">
+                    <h3 class="terms__item-header">Любой объём —<br>
+                      на&nbsp;ваш&nbsp;выбор</h3>
+                  </div>
+                  <p class="terms__item-description">Покупайте сколько контактов потенциальных клиентов в&nbsp;месяц
+                    —&nbsp;сколько требуется&nbsp;вам!</p>
+                </div>
+                <img class="terms__item-image" src="img/png/terms3.png" srcset="img/png/terms3-2x.png"
+                  alt="Изображение корзины.">
+              </li>
+              <li class="terms__item">
+                <div class="terms__text">
+                  <div class="terms__item-header-container">
+                    <h3 class="terms__item-header">Комплекс технологий</h3>
+                  </div>
+                  <p class="terms__item-description">После расчёта стоимости Лидов и&nbsp;оплаты выбранного
+                    пакета&nbsp;—
+                    вы&nbsp;получите уникальный код&nbsp;для своего сайта, который позволит отслеживать контакты тех,
+                    кто&nbsp;не&nbsp;оставил заявку</p>
+                </div>
+                <img class="terms__item-image" src="img/png/terms4.png" srcset="img/png/terms4-2x.png"
+                  alt="Изображение ноутбука.">
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="page-main__supply supply">
+          <div class="supply__container container">
+            <h2 class="supply__header header2">Стоимость технологий<br><span class="header-colored">«Лид
+                Конвейер»</span>
+            </h2>
+            <p class="supply__description">Оптимальные тарифы и&nbsp;цены на&nbsp;получение готовых Лидов и&nbsp;заявок
+              с&nbsp;вашего сайта, без переплаты и&nbsp;абонентской платы</p>
+
+            <ul class="supply__list">
+              <li class="supply__item supply-item">
+                <div class="supply-item__mark">Старт</div>
+                <h3 class="supply-item__header">50&nbsp;готовых лидов за&nbsp;<span
+                    class="supply-item__header supply-item__header--colored">22&nbsp;500&nbsp;₽</span></h3>
+                <p class="supply-item__description">Стартовый пакет для тех, кто хочет купить Лидов со&nbsp;своего сайта
+                  и&nbsp;повысить свои продаж</p>
+                <ul class="supply-item__list">
+                  <li class="supply-item__item">
+                    50&nbsp;Лидов
+                  </li>
+                  <li class="supply-item__item supply-item__item--actual">
+                    450&nbsp;₽ за&nbsp;один Лид
+                  </li>
+                  <li class="supply-item__item">
+                    Получение за&nbsp;5&ndash;7 дней
+                  </li>
+                </ul>
+                <button class="supply-item__button">Купить</button>
+              </li>
+              <li class="supply__item supply-item supply-item--hover">
+                <div class="supply-item__mark">Стандарт</div>
+                <h3 class="supply-item__header">100 готовых лидов за&nbsp;<span
+                    class="supply-item__header supply-item__header--colored">40&nbsp;000&nbsp;₽</span></h3>
+                <p class="supply-item__description">Оптимальный пакет Лидов для&nbsp;любого отдела продаж
+                  и&nbsp;для&nbsp;повышения
+                  продаж своих товаров или&nbsp;услуг</p>
+                <ul class="supply-item__list">
+                  <li class="supply-item__item">
+                    100 Лидов
+                  </li>
+                  <li class="supply-item__item  supply-item__item--actual">
+                    400&nbsp;₽ за&nbsp;один Лид
+                  </li>
+                  <li class="supply-item__item">
+                    Получение за&nbsp;7&ndash;14 дней
+                  </li>
+                  <li class="supply-item__item">
+                    Возможность показа Лидам рекламы через Яндекс.Директ
+                  </li>
+                </ul>
+                <button class="supply-item__button">Купить</button>
+              </li>
+              <li class="supply__item supply-item">
+                <div class="supply-item__mark">Премиум</div>
+                <h3 class="supply-item__header">300 готовых лидов за&nbsp;<span
+                    class="supply-item__header supply-item__header--colored">90&nbsp;000&nbsp;₽</span></h3>
+                <p class="supply-item__description">Максимум целевых Лидов в&nbsp;ближайшее время для вашего бизнеса
+                  которые уже завтра могут стать Вашими клиентами!</p>
+                <ul class="supply-item__list">
+                  <li class="supply-item__item">
+                    300 Лидов
+                  </li>
+                  <li class="supply-item__item  supply-item__item--actual">
+                    300&nbsp;₽ за&nbsp;один Лид
+                  </li>
+                  <li class="supply-item__item">
+                    Получение за&nbsp;7&ndash;14 дней
+                  </li>
+                  <li class="supply-item__item">
+                    Возможность показа Лидам рекламы через Яндекс.Директ
+                  </li>
+                  <li class="supply-item__item">
+                    Готовый и&nbsp;конверсионный скрипт продаж целевым Лидам
+                  </li>
+                </ul>
+                <button class="supply-item__button">Купить</button>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="page-main__additional additional">
+          <div class="additional__container container">
+            <h2 class="additional__header header2">
+              Дополнительные услуги
+            </h2>
+            <ul class="additional__list">
+              <li class="additional__item additional-item">
+                <h3 class="additional-item__header">Создание<br>
+                  промо-страницы</h3>
+                <p class="additional-item__price">от <span
+                    class="additional-item__price additional-item__price--colored">15 000 ₽</span></p>
+                <button class="additional-item__button">Купить</button>
+              </li>
+              <li class="additional__item additional-item">
+                <h3 class="additional-item__header">Настройка и ведение Яндекс.Директ</h3>
+                <p class="additional-item__price">от <span
+                    class="additional-item__price additional-item__price--colored">10 000 ₽</span></p>
+                <button class="additional-item__button">Купить</button>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="page-main__clients clients">
+          <div class="clients__container container">
+            <h2 class="clients__header header2">Клиенты, которые уже покупают<span class="header-colored"><br>Лидов
+                для своего бизнеса</span></h2>
+            <p class="clients__description">Более 5000 компаний по&nbsp;всей России<br>уже используют покупку Лидов!</p>
+            <ul class="clients__list">
+              <li class="clients__item">
+                <img class="clients__image" src="img/svg/logo-client1.svg" alt="Логотип Skoda." width="298" height="71">
+              </li>
+              <li class="clients__item">
+                <img class="clients__image" src="img/svg/logo-client2.svg" alt="Логотип Skillbox." width="234"
+                  height="50">
+              </li>
+              <li class="clients__item">
+                <img class="clients__image" src="img/svg/logo-client3.svg" alt="Логотип World Class." width="250"
+                  height="71">
+              </li>
+              <li class="clients__item">
+                <img class="clients__image" src="img/svg/logo-client4.svg" alt="Логотип Банка Абсолют." width="230"
+                  height="69">
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="page-main__feedback feedback">
+          <div class="feedback__container container">
+            <h2 class="feedback__header header2">Отзывы клиентов</h2>
+            <p class="feedback__description">Более&nbsp;89% наших клиентов сотрудничают с&nbsp;нами<br>ежемесячно
+              на&nbsp;протяжении более 2-х лет</p>
+            <ul class="feedback__list">
+              <li class="feedback__item">
+                <div class="feedback__rating">
+                  <p class="feedback__mark">5,0</p>
+                  <div class="feedback__stars">
+                    <span class="feedback__star"></span>
+                    <span class="feedback__star"></span>
+                    <span class="feedback__star"></span>
+                    <span class="feedback__star"></span>
+                    <span class="feedback__star"></span>
+                  </div>
+                </div>
+                <p class="feedback__text">&laquo;Стабильно получаем новые лиды из&nbsp;сервиса. С&nbsp;точки зрения
+                  рентабельности нареканий нет. Тёплая заявка 800&ndash;1000&nbsp;рублей, конверсия, цена-качество
+                  устраивает. Общее впечатление достаточно хорошее, цена, качество, скорость&raquo;.</p>
+                <p class="feedback__category">Ниша: банкротство, списание долгов</p>
+              </li>
+              <li class="feedback__item">
+                <div class="feedback__rating">
+                  <p class="feedback__mark">4,8</p>
+                  <div class="feedback__stars">
+                    <span class="feedback__star"></span>
+                    <span class="feedback__star"></span>
+                    <span class="feedback__star"></span>
+                    <span class="feedback__star"></span>
+                    <span class="feedback__star"></span>
+                  </div>
+                </div>
+                <p class="feedback__text">&laquo;С&nbsp;вашим сервисом работаем с&nbsp;июня 22&nbsp;года. Нас
+                  заинтересовало, и&nbsp;мы&nbsp;решили протестировать. Взяли минимальный пакет из&nbsp;10&nbsp;новых
+                  лидов, а&nbsp;потом, как он&nbsp;закончился, взяли повышенный пакет. Учитывая нашу сферу
+                  и&nbsp;посмотреть статистику, из&nbsp;100 заинтересованных 15&nbsp;в продажу. Это хороший
+                  результат&raquo;.</p>
+                <p class="feedback__category">Ниша: банкротство, списание долгов</p>
+              </li>
+              <li class="feedback__item">
+                <div class="feedback__rating">
+                  <p class="feedback__mark">5,0</p>
+                  <div class="feedback__stars">
+                    <span class="feedback__star"></span>
+                    <span class="feedback__star"></span>
+                    <span class="feedback__star"></span>
+                    <span class="feedback__star"></span>
+                    <span class="feedback__star"></span>
+                  </div>
+                </div>
+                <p class="feedback__text">&laquo;С&nbsp;сервисом работаем чуть меньше года. Немного сомневались,
+                  но&nbsp;согласились попробовать, а&nbsp;после продолжили работать. Новые клиенты появились сразу,
+                  передали на&nbsp;наш колл-центр. С&nbsp;вашего источника дешевле, чем с&nbsp;других сервисов.
+                  Безусловно, с&nbsp;вами стоит работать&raquo;.</p>
+                <p class="feedback__category">Ниша: банкротство, списание долгов</p>
+              </li>
+              <li class="feedback__item">
+                <div class="feedback__rating">
+                  <p class="feedback__mark">4,9</p>
+                  <div class="feedback__stars">
+                    <span class="feedback__star"></span>
+                    <span class="feedback__star"></span>
+                    <span class="feedback__star"></span>
+                    <span class="feedback__star"></span>
+                    <span class="feedback__star"></span>
+                  </div>
+                </div>
+                <p class="feedback__text">&laquo;С&nbsp;вашей компанией работаем более 2‑х лет, сотрудничество полезное.
+                  Мы&nbsp;все посмотрели, разобрались, что сервис даёт реально целевые заявки. Заключили контракт
+                  на&nbsp;23&nbsp;000&nbsp;рублей, окупилось. Понравилась технология, она помогает нам получать
+                  лиды&raquo;.</p>
+                <p class="feedback__category">Ниша: банкротство, списание долгов</p>
+              </li>
+            </ul>
+            <ul class="feedback__video-list">
+              <li class="feedback__video-item">
+                <div class="feedback__video feedback__video--1">
+                  <div class="feedback__track" data-video-container1
+                    data-src="https://www.youtube.com/embed/HqOvP7nkG6U?si=bZTqIZTjbeSqw1Ig">
+                  </div>
+                  <button class="feedback__button feedback__button--1"></button>
+                </div>
+                <p class="feedback__video-description">Отзыв 1: название</p>
+              </li>
+              <li class="feedback__video-item">
+                <div class="feedback__video feedback__video--2">
+                  <div class="feedback__track" data-video-container2
+                    data-src="https://www.youtube.com/embed/HqOvP7nkG6U?si=bZTqIZTjbeSqw1Ig">
+                  </div>
+                  <button class="feedback__button feedback__button--2"></button>
+                </div>
+                <p class="feedback__video-description">Отзыв 2: название</p>
+              </li>
+              <li class="feedback__video-item">
+                <div class="feedback__video feedback__video--3">
+                  <div class="feedback__track" data-video-container3
+                    data-src="https://www.youtube.com/embed/HqOvP7nkG6U?si=bZTqIZTjbeSqw1Ig">
+                  </div>
+                  <button class="feedback__button feedback__button--3"></button>
+                </div>
+                <p class="feedback__video-description">Отзыв 3: название</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="page-main__promo promo">
+          <div class="promo__container container">
+            <div class="promo__image-container">
+              <img class="promo__image" src="img/webp/feature.webp" srcset="img/webp/feature-2x.webp" width="677"
+                height="442" alt="Иллюстрация преимуществ.">
+            </div>
+            <div class="promo__text">
+              <h2 class="promo__header header2">Технология<br>
+                <span class="header-colored
+                ">«Лид Конвейер»</span>
+              </h2>
+              <p class="promo__description">Мы&nbsp;разработали программный комплекс, который позволяет определять
+                контактные данные (телефон, Telegram, email) тех посетителей вашего сайта, кто был на&nbsp;сайте,
+                но&nbsp;не&nbsp;оставил заявку.</p>
+              <p class="promo__description">Далее, на&nbsp;основе собственных разработок, мы&nbsp;идентифицируем
+                пользователей по&nbsp;интересам и&nbsp;интересующим их&nbsp;товарам и&nbsp;услугам&nbsp;&mdash; вам
+                передаём только тех, кто заинтересован в&nbsp;вашей услуге или товаре.</p>
+              <p class="promo__description">Вы&nbsp;платите только за&nbsp;результат&nbsp;&mdash; за&nbsp;полученных
+                Лидов (заявки) на&nbsp;свои услуги или товары.</p>
+            </div>
+          </div>
+        </section>
+        <section class="page-main__sign sign">
+          <div class="sign__container container">
+            <div class="sign__text">
+              <h2 class="sign__header header2">Зарегистрируйтесь и&nbsp;добавьте свой проект в&nbsp;систему&nbsp;&mdash;
+                начните
+                получать Лидов сегодня!
+              </h2>
+              <button class="sign__button">Зарегистрироваться</button>
+            </div>
+            <div class="sign__image-container">
+              <img class="sign__image" src="img/png/sign.png" srcset="img/png/sign-2x.png" alt="Изображение клиента.">
+            </div>
+          </div>
+        </section>
+        <section class="page-main__slider slider">
+          <div class="slider__container container">
+            <div class="slider__swiper swiper">
+              <ol class="slider__list swiper-wrapper">
+                <li class="slider__item swiper-slide">
+                  <h2 class="slider__header header2">Как это работает?</h2>
+                  <div class="slider__content">
+                    <div class="slider__lead">
+                      <div class="slider__info">
+                        <h3 class="slider__number">01</h3>
+                        <img class="slider__image" src="img/svg/about-apple-man.svg" alt="Смайлик">
+                      </div>
+                      <p class="slider__case header2">Регистрация и&nbsp;добавление проекта в&nbsp;систему</p>
+                    </div>
+                    <ol class="slider__description">
+                      <li class="slider__description-point">
+                        Зарегистрируйтесь в&nbsp;нашем личном кабинете
+                      </li>
+                      <li class="slider__description-point">
+                        При добавление проекта вам необходимо указать URL (адрес) своего сайта
+                      </li>
+                      <li class="slider__description-point">
+                        Для вашего сайта будет сгенерирован уникальный код, который необходимо установить на&nbsp;свой
+                        сайт
+                        (в&nbsp;шаблоне сайта, перед тегом &lt;/head&gt;)
+                      </li>
+                    </ol>
+                  </div>
+                </li>
+                <li class="slider__item swiper-slide">
+                  <h2 class="slider__header header2">Как это работает?</h2>
+                  <div class="slider__content">
+                    <div class="slider__lead">
+                      <div class="slider__info">
+                        <h3 class="slider__number">02</h3>
+                        <img class="slider__image" src="img/svg/about-arrow.svg" alt="Смайлик">
+                      </div>
+                      <p class="slider__case header2">Выбор пакета и&nbsp;количества Лидов</p>
+                    </div>
+                    <p class="slider__description">
+                      После добавления проекта в&nbsp;систему, вам необходимо выбрать тот пакет и&nbsp;количество Лидов,
+                      которое вам необходимо.
+                    </p>
+                  </div>
+                </li>
+                <li class="slider__item swiper-slide">
+                  <h2 class="slider__header header2">Как это работает?</h2>
+                  <div class="slider__content">
+                    <div class="slider__lead">
+                      <div class="slider__info">
+                        <h3 class="slider__number">03</h3>
+                        <img class="slider__image" src="img/svg/about-money.svg" alt="Смайлик">
+                      </div>
+                      <p class="slider__case header2">Оплата проекта</p>
+                    </div>
+                    <p class="slider__description">
+                      Оплатить Лидов вы&nbsp;сможете пластиковой картой или безналичным переводом.
+                    </p>
+                  </div>
+                </li>
+                <li class="slider__item swiper-slide">
+                  <h2 class="slider__header header2">Как это работает?</h2>
+                  <div class="slider__content">
+                    <div class="slider__lead">
+                      <div class="slider__info">
+                        <h3 class="slider__number">04</h3>
+                        <img class="slider__image" src="img/svg/about-locked.svg" alt="Смайлик">
+                      </div>
+                      <p class="slider__case header2">Получение кода для сайта</p>
+                    </div>
+                    <ol class="slider__description">
+                      <li class="slider__description-point">
+                        После оплаты, система для вас сгенерирует код, который вам необходимо установить на&nbsp;свой
+                        сайт
+                        (в&nbsp;шаблоне сайта, перед тегом &lt;/head&gt;).
+                      </li>
+                      <li class="slider__description-point">
+                        При добавление проекта вам необходимо указать URL (адрес) своего сайта
+                      </li>
+                      <li class="slider__description-point">
+                        Для вашего сайта будет сгенерирован уникальный код, который необходимо установить на&nbsp;свой
+                        сайт
+                        (в&nbsp;шаблоне сайта, перед тегом &lt;/head&gt;)
+                      </li>
+                    </ol>
+                  </div>
+                </li>
+                <li class="slider__item swiper-slide">
+                  <h2 class="slider__header header2">Как это работает?</h2>
+                  <div class="slider__content">
+                    <div class="slider__lead">
+                      <div class="slider__info">
+                        <h3 class="slider__number">05</h3>
+                        <img class="slider__image" src="img/svg/about-star-struck.svg" alt="Смайлик">
+                      </div>
+                      <p class="slider__case header2">Начало получения Лидов</p>
+                    </div>
+                    <p class="slider__description">
+                      В&nbsp;зависимости от&nbsp;вашей тематики (услуги или товара),
+                      а&nbsp;также объёма вашего трафика сайта система будет добавлять в&nbsp;личном кабинете контакты
+                      потенциальных клиентов, заинтересованных в&nbsp;вашей услуги и&nbsp;из&nbsp;вашего региона.
+                    </p>
+                  </div>
+                </li>
+              </ol>
+              <div class="swiper-pagination slider__pagination"></div>
+            </div>
+          </div>
+        </section>
+        <section class="page-main__video video">
+          <div class="video__container container">
+            <h2 class="video__header header2">Мы подготовили для вас <br>
+              видео-презентацию <span class="header-colored
+  ">нашей работы</span></h2>
+            <div class="video__track-container">
+              <div class="video__track" data-video-container4
+                data-src="https://www.youtube.com/embed/HqOvP7nkG6U?si=bZTqIZTjbeSqw1Ig">
+              </div>
+              <button class="video__button"></button>
+            </div>
+          </div>
+        </section>
+        <section class="page-main__preferences preferences">
+          <div class="preferences__container container">
+            <h2 class="preferences__header header2">Почему лучше<br><span class="header-colored
+  ">заказать Лидов у&nbsp;нас</span></h2>
+            <p class="preferences__description">Лидогенерация&nbsp;— это&nbsp;стабильное получение клиентов
+              и&nbsp;выполнение плана по&nbsp;продажам!</p>
+            <div class="preferences__primary">
+              <ul class="preferences__primary-list">
+                <li class="preferences__primary-item">
+                  <h3 class="preferences__primary-header">01</h3>
+                  <p class="preferences__primary-description">Только качественные Лиды. Мы&nbsp;идентифицируем только
+                    тех посетителей, которым интересна ваша услуги и&nbsp;из&nbsp;вашего города.</p>
+                </li>
+                <li class="preferences__primary-item">
+                  <h3 class="preferences__primary-header">02</h3>
+                  <p class="preferences__primary-description">Доступная цена и&nbsp;отсутствие минимального порога.
+                    У&nbsp;нас отсутствует минимальная плата за&nbsp;сервис, подписка и&nbsp;т.п. Вы&nbsp;покупаете
+                    столько Лидов&nbsp;&mdash; сколько хотите!</p>
+                </li>
+                <li class="preferences__primary-item">
+                  <h3 class="preferences__primary-header">03</h3>
+                  <p class="preferences__primary-description">Техническая поддержка и&nbsp;комплекс услуг.
+                    Мы&nbsp;работаем для вас 24/7!</p>
+                </li>
+              </ul>
+            </div>
+            <div class="preferences__secondary">
+              <ul class="preferences__secondary-list">
+                <li class="preferences__secondary-item preferences__secondary-item--1">
+                  <b class="preferences__secondary-lead">Источник Лидов:</b>
+                  <p class="preferences__secondary-description">
+                    контекстная реклама в&nbsp;Яндекс.Директ, SEO, SMM и&nbsp;другая реклама дополняют технологию
+                    &laquo;Лид Конвейер&raquo;.</p>
+                </li>
+                <li class="preferences__secondary-item preferences__secondary-item--2">
+                  <b class="preferences__secondary-lead">Вы&nbsp;экономите на&nbsp;рекламе:</b>
+                  <p class="preferences__secondary-description">
+                    получая контактные данных тех, кто не&nbsp;оставил заявки, но&nbsp;заинтересован в&nbsp;Вашем товаре
+                    или услуге&nbsp;&mdash; это дополнительный канал продаж.</p>
+                </li>
+                <li class="preferences__secondary-item preferences__secondary-item--3">
+                  <b class="preferences__secondary-lead">Вы&nbsp;сможете прогнозировать продажи:</b>
+                  <p class="preferences__secondary-description">
+                    чтобы не&nbsp;ждать, когда-же кто‑то позвонит или оставит заявку, звоните и&nbsp;продавайте первым!
+                  </p>
+                </li>
+                <li class="preferences__secondary-item preferences__secondary-item--4">
+                  <b class="preferences__secondary-lead">Безопасно:</b>
+                  <p class="preferences__secondary-description">
+                    это абсолютно легальный и&nbsp;законный метод получения Лидов.</p>
+                </li>
+                <li class="preferences__secondary-item preferences__secondary-item--5">
+                  <b class="preferences__secondary-lead">Быстро:</b>
+                  <p class="preferences__secondary-description">
+                    запуск и получение первых Лидов обычно занимает 5–7 дней, а добавление проекта в систему менее
+                    1 часа.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="page-main__sign-second sign-second">
+          <div class="sign-second__container container">
+            <div class="sign-second__image-container">
+              <img class="sign-second__image" src="img/png/sign2.png" srcset="img/png/sign2-2x.png"
+                alt="Изображение клиента.">
+            </div>
+            <div class="sign-second__text">
+              <h2 class="sign-second__header header2">Давайте принесём результат Вашему бизнесу? Завалите своей отдел
+                продаж Лидами!
+              </h2>
+              <button class="sign-second__button">Зарегистрироваться</button>
+            </div>
+          </div>
+        </section>
+        <section class="page-main__accordeon accordeon">
+          <div class="accordeon__container container">
+            <h2 class="accordeon__header header2">Вопросы и&nbsp;ответы</h2>
+            <div class="accordeon__content">
+              <ul class="accordeon__list">
+                <li class="accordeon__item">
+                  <button class="accordeon__question accordeon__questions--closed">На&nbsp;сколько это безопасно,
+                    законно
+                    и&nbsp;может&nbsp;ли навредить
+                    моему сайту?
+                  </button>
+                  <div class="accordeon__answer accordeon__answer--closed">Происходит обработка обезличенных данных
+                    (cookies). Cookies&nbsp;&mdash;
+                    маленький фрагмент данных, который сохраняется в&nbsp;браузере и&nbsp;передается при обращению
+                    к&nbsp;сайтам.Вы&nbsp;можете разместить в&nbsp;политике конфиденциальности условия с&nbsp;согласием
+                    на&nbsp;передачу и&nbsp;обработку cookies посетителями вашего сайта. Таким образом, это гарантирует
+                    полную легальность работы с&nbsp;данными. Для сайта это не&nbsp;может навредить, и&nbsp;санкций
+                    со&nbsp;стороны поисковых системы (Яндекс, Google) нет.</div>
+                </li>
+                <li class="accordeon__item">
+                  <button class="accordeon__question accordeon__questions--closed">Откуда берутся номера телефонов?
+                  </button>
+                  <div class="accordeon__answer accordeon__answer--closed">Происходит обработка обезличенных данных
+                    (cookies). Cookies&nbsp;&mdash;
+                    маленький фрагмент данных, который сохраняется в&nbsp;браузере и&nbsp;передается при обращению
+                    к&nbsp;сайтам.Вы&nbsp;можете разместить в&nbsp;политике конфиденциальности условия с&nbsp;согласием
+                    на&nbsp;передачу и&nbsp;обработку cookies посетителями вашего сайта. Таким образом, это гарантирует
+                    полную легальность работы с&nbsp;данными. Для сайта это не&nbsp;может навредить, и&nbsp;санкций
+                    со&nbsp;стороны поисковых системы (Яндекс, Google) нет.</div>
+                </li>
+                <li class="accordeon__item">
+                  <button class="accordeon__question accordeon__questions--closed">Смогу&nbsp;ли я&nbsp;сам установить
+                    код
+                    на&nbsp;сайт?
+                  </button>
+                  <div class="accordeon__answer accordeon__answer--closed">Происходит обработка обезличенных данных
+                    (cookies). Cookies&nbsp;&mdash;
+                    маленький фрагмент данных, который сохраняется в&nbsp;браузере и&nbsp;передается при обращению
+                    к&nbsp;сайтам.Вы&nbsp;можете разместить в&nbsp;политике конфиденциальности условия с&nbsp;согласием
+                    на&nbsp;передачу и&nbsp;обработку cookies посетителями вашего сайта. Таким образом, это гарантирует
+                    полную легальность работы с&nbsp;данными. Для сайта это не&nbsp;может навредить, и&nbsp;санкций
+                    со&nbsp;стороны поисковых системы (Яндекс, Google) нет.</div>
+                </li>
+                <li class="accordeon__item">
+                  <button class="accordeon__question accordeon__questions--closed">На&nbsp;какую CMS или конструктор
+                    можно
+                    установить код &laquo;Лид
+                    Конвейер&raquo;?
+                  </button>
+                  <div class="accordeon__answer accordeon__answer--closed">Происходит обработка обезличенных данных
+                    (cookies). Cookies&nbsp;&mdash;
+                    маленький фрагмент данных, который сохраняется в&nbsp;браузере и&nbsp;передается при обращению
+                    к&nbsp;сайтам.Вы&nbsp;можете разместить в&nbsp;политике конфиденциальности условия с&nbsp;согласием
+                    на&nbsp;передачу и&nbsp;обработку cookies посетителями вашего сайта. Таким образом, это гарантирует
+                    полную легальность работы с&nbsp;данными. Для сайта это не&nbsp;может навредить, и&nbsp;санкций
+                    со&nbsp;стороны поисковых системы (Яндекс, Google) нет.</div>
+                </li>
+                <li class="accordeon__item">
+                  <button class="accordeon__question accordeon__questions--closed">Как оплатить ваш сервис?
+                  </button>
+                  <div class="accordeon__answer accordeon__answer--closed">Происходит обработка обезличенных данных
+                    (cookies). Cookies&nbsp;&mdash;
+                    маленький фрагмент данных, который сохраняется в&nbsp;браузере и&nbsp;передается при обращению
+                    к&nbsp;сайтам.Вы&nbsp;можете разместить в&nbsp;политике конфиденциальности условия с&nbsp;согласием
+                    на&nbsp;передачу и&nbsp;обработку cookies посетителями вашего сайта. Таким образом, это гарантирует
+                    полную легальность работы с&nbsp;данными. Для сайта это не&nbsp;может навредить, и&nbsp;санкций
+                    со&nbsp;стороны поисковых системы (Яндекс, Google) нет.</div>
+                </li>
+              </ul>
+              <img class="accordeon__image" src="img/png/answers.png" srcset="img/png/answers-2x.png"
+                alt="Фотография клиента." width="897" height="581">
+            </div>
+          </div>
+        </section>
+        <section class="page-main__use use">
+          <div class="use__container container">
+            <div class="use__represent">
+              <h2 class="use__header header2"><span class="header-colored
+              ">Лидогенерация&mdash;</span><br>это новая<br>эра маркетинга!</h2>
+              <button class="use__button">Купить Лиды</button>
+            </div>
+            <div class="use__text">
+              <p class="use__paragraph">Использование лидогенерации снижает стоимость привлечения клиентов, позволяет
+                бизнесу сосредоточиться на&nbsp;основном продукте и&nbsp;значительно упрощает процесс работы.
+              </p>
+              <p class="use__paragraph">Стоимость заявок на&nbsp;нашей платформе зависит от&nbsp;их&nbsp;качества
+                и&nbsp;сложности. Мы&nbsp;предоставляем прозрачные тарифы и&nbsp;выгодные условия сотрудничества.</p>
+              <p class="use__paragraph">Наша биржа&nbsp;&mdash; это место встречи тех, кто заказывает заявки,
+                и&nbsp;тех, кто их&nbsp;предоставляет. Мы&nbsp;создаём условия для успешного сотрудничества
+                и&nbsp;взаимной выгоды.</p>
+              <button class="use__button-open">Читать больше</button>
+              <div class="use__more use__more--hidden">
+                <p class="use__paragraph">Биржа лидов&nbsp;&mdash; это современное решение для бизнеса, которое
+                  позволяет эффективно находить новых клиентов и&nbsp;масштабировать свою деятельность.</p>
+                <p class="use__paragraph">Использование биржи помогает оптимизировать стоимость привлечения заявок
+                  и&nbsp;получить готовые решения для лидогенерации. Наш сервис предоставляет уникальную возможность
+                  купить или продать лиды, обеспечивая прозрачность и&nbsp;надёжность каждой сделки.</p>
+                <p class="use__paragraph">Мы&nbsp;объединяем вебмастеров, готовых передать заявки, и&nbsp;бизнесы,
+                  которым нужны новые клиенты. На&nbsp;нашей платформе вебмастеры размещают готовые заявки, которые
+                  затем приобретаются бизнесами для привлечения новых клиентов. Это упрощает процесс взаимодействия
+                  и&nbsp;повышает эффективность работы. Каждая заявка проходит тщательную проверку, чтобы обеспечить
+                  максимальную ценность для бизнеса.</p>
+                <p class="use__paragraph">Вы&nbsp;покупаете лиды, уже готовые к&nbsp;взаимодействию, и&nbsp;получаете
+                  гарантированный результат.</p>
+                <button class="use__button-close">Скрыть</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="page-main__contacts contacts">
+          <div class="contacts__container container">
+            <div class="contacts__text">
+              <h2 class="contacts__header header2">Контакты</h2>
+              <p class="contacts__welcome">Есть вопрос, или вы&nbsp;хотите получить бесплатную консультацию? Свяжитесь
+                с&nbsp;нами, и&nbsp;мы&nbsp;предоставим необходимую информацию!</p>
+              <ul class="contacts__list">
+                <li class="contacts__item">
+                  <h3 class="contacts__type">
+                    Адрес офиса
+                  </h3>
+                  <a class="contacts__contact" href="#">
+                    г. Москва, ул. Дубининская, д.&nbsp;53
+                  </a>
+                </li>
+                <li class="contacts__item">
+                  <h3 class="contacts__type">
+                    Телефон:
+                  </h3>
+                  <a class="contacts__contact" href="tel:+74951183282">+7 495 118-32-82</a>
+                </li>
+                <li class="contacts__item">
+                  <h3 class="contacts__type">
+                    Электронная почта
+                  </h3>
+                  <a class="contacts__contact" href="mailto:mailbox@leadconveer.ru"
+                    title="Email.">mailbox@leadconveer.ru</a>
+                </li>
+              </ul>
+              <div class="contacts__social">
+                <div class="contacts__social-text">Или напишите нам в&nbsp;любимом мессенджере:</div>
+                <a class="contacts__social-link" href="#">
+                  <img class="contacts__social-image" src="img/svg/tme.svg" alt="Наш Telegram." width="64" height="64">
+                </a>
+              </div>
+            </div>
+            <img class="contacts__image" src="img/webp/address.webp" alt="Фотография офиса." width="880" height="847">
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="page-footer">
+      <div class="page-footer__container container">
+        <p class="page-footer__copyright">&copy;&nbsp;2025 Все права защищены. Технология &laquo;Лид
+          Конвейер&raquo;&nbsp;&mdash;
+          лидогенерация для бизнеса.</p>
+        <p class="page-footer__output">ООО&nbsp;&laquo;ДС-ГРУПП&raquo; ИНН 7801355174 ОГРН 1187847129425</p>
+        <nav class="page-footer__nav">
+          <ul class="page-footer__list">
+            <li class="page-footer__item"><a class="page-footer__link">Блог</a></li>
+            <li class="page-footer__item"><a class="page-footer__link">Договор-оферта</a></li>
+            <li class="page-footer__item"><a class="page-footer__link">Политика конфиденциальности</a></li>
+            <li class="page-footer__item"><a class="page-footer__link">Соглашение об обработке данных</a></li>
+            <li class="page-footer__item"><a class="page-footer__link">Вход в личный кабинет</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </div>
+  <script src=" https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js">
+  </script>
+  <script src="js/main.js"></script>
+
+</body>

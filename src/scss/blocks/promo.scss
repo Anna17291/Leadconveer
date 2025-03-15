@@ -1,0 +1,165 @@
+.promo {
+  padding: 60px 0 60px;
+
+  @include vp-1339 {
+    padding: 20px 0;
+  }
+}
+
+.promo {
+  .promo__container {
+    padding: 0 220px 0 234px;
+    display: flex;
+
+    @include vp-1819 {
+      padding: 0 120px;
+    }
+
+    @include vp-1535 {
+      padding: 0 70px
+    }
+
+    @include vp-1139 {
+      padding: 0 40px;
+    }
+
+    @include vp-767 {
+      padding: 0 20px;
+    }
+
+
+    @include vp-1339 {
+      flex-direction: column-reverse;
+      position: relative;
+
+      &::after {
+        position: absolute;
+        content: "";
+        width: 60%;
+        height: 2px;
+        background-color: #2d2d2d;
+        bottom: 0;
+        right: 20%;
+      }
+    }
+  }
+}
+
+
+.promo__image-container {
+  margin-right: 60px;
+  width: 48%;
+  padding: 0;
+  position: relative;
+
+  @include vp-1339 {
+    width: 80%;
+    margin-bottom: 60px;
+    margin-right: 0;
+    align-self: center;
+  }
+
+  @include vp-1019 {
+    width: 100%;
+  }
+
+  &::before {
+    content: "";
+    background-image: url("../img/svg/star.svg");
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    left: -78px;
+    top: 20px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transform: rotate(-8deg);
+
+    @include vp-1535 {
+      display: none;
+    }
+  }
+
+  &::after {
+    content: "";
+    background-image: url("../img/svg/star.svg");
+    width: 57px;
+    height: 57px;
+    position: absolute;
+    right: 22px;
+    bottom: -15px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transform: rotate(14deg);
+
+    @include vp-1535 {
+      bottom: 0;
+    }
+
+    @include vp-1339 {
+      display: none;
+    }
+  }
+}
+
+.promo__image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  user-select: none;
+}
+
+.promo__text {
+  width: 52%;
+
+  @include vp-1339 {
+    width: 100%;
+  }
+}
+
+.promo__header {
+  margin-bottom: 40px;
+  padding: 0 90px 0 0;
+  box-sizing: border-box;
+  text-align: left;
+  width: fit-content;
+  position: relative;
+
+  @include vp-1339 {
+    text-align: center;
+    margin: 0 auto 40px;
+  }
+
+  @include vp-767 {
+    padding-bottom: 40px;
+    padding-right: 0;
+  }
+
+  &::after {
+    position: absolute;
+    content: "";
+    width: 70px;
+    height: 70px;
+    background: url(../img/svg/glasses.svg) no-repeat;
+    z-index: 3;
+    bottom: -10px;
+    right: 0;
+    background-size: 100%;
+
+    @include vp-767 {
+      right: 50%;
+      width: 40px;
+      height: 40px;
+      transform: translateX(50%);
+    }
+  }
+}
+
+.promo__description {
+  margin: 0 0 20px 0;
+
+  @include vp-767 {
+    font-size: 18px;
+  }
+}

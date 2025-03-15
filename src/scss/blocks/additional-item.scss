@@ -1,0 +1,115 @@
+.additional-item {
+  background-color: #f6f6f6;
+  border-radius: 40px;
+  position: relative;
+  padding: 40px;
+  box-sizing: border-box;
+  list-style-type: none;
+  min-height: 330px;
+  line-height: 120%;
+  display: flex;
+  flex-direction: column;
+
+  @include vp-1339 {
+    margin-bottom: 20px;
+  }
+
+  @include vp-767 {
+    padding: 30px 20px;
+    min-height: 0;
+  }
+
+  &::before {
+    content: "";
+    background-image: url("../img/svg/star.svg");
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transform: rotate(-8deg);
+
+    @include vp-767 {
+      width: 28px;
+      height: 28px;
+    }
+  }
+}
+
+.additional-item__header {
+  padding-right: 170px;
+  margin: 0 0 20px 0;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 120%;
+  font-family: "Montserrat", "Arial", sans-serif;
+
+  @include vp-767 {
+
+    font-size: 20px;
+    padding-right: 30px;
+  }
+}
+
+.additional-item__price {
+  margin: 0 0 30px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  @include vp-767 {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+
+  &--colored {
+    background: linear-gradient(90deg, #FF6600 0%, #F26659 27.4%, #F06177 37.4%, #E65D97 48.4%, #CA46D2 71.4%, #8D13F9 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 700;
+    font-size: 36px;
+    font-family: "Montserrat", "Arial", sans-serif;
+    line-height: 120%;
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    margin-left: 12px;
+
+    @include vp-767 {
+      font-size: 22px;
+    }
+  }
+}
+
+.additional-item__button {
+  background-color: #ff6600;
+  min-height: 72px;
+  width: 100%;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: 0;
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 24px;
+  color: #ffffff;
+  border-radius: 20px;
+  margin-top: auto;
+  cursor: pointer;
+  user-select: none;
+
+  &:hover,
+  &:focus-visible {
+    background-color: #ff9832;
+  }
+
+  &:active {
+    background-color: #cd3400;
+  }
+
+  &--unabled {
+    background-color: #c0c0c0;
+  }
+}
